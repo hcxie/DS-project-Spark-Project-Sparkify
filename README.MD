@@ -1,5 +1,7 @@
 [TOC]
 
+
+
 # Installation
 
 The required python package includes: numpy, pandas, matplotlib, seaborn, datatime, pyspark
@@ -34,7 +36,7 @@ Three classifier algorithms were used to develop the churn user prediction model
 
 The best performing model is random forest classifier trained by augmented and balanced data. The overall f1 score is 0.8696 and accuracy is 0.86517. The recall for churn user is 0.7895. The precision for churn user is 0.6522. The recall and precision for normal user are 0.8857 and 0.9394.
 
-In addition, time-series based features and session-based features played important roles to improve the model performance. Detailed can be found in this blog: 
+In addition, time-series based features and session-based features played important roles to improve the model performance. Detailed can be found in this blog: https://medium.com/@jbdx6307/prediction-churn-user-using-pyspark-sparkify-capstone-project-e6852b42dbf7
 
 # Licensing, Authors, Acknowledgements
 
